@@ -443,6 +443,11 @@ section{
     transform: scale(0);
 }
 
+.portfolio .image-container .box .info .desc{
+    color: #fff;
+    font-size: medium;
+}
+
 .portfolio .image-container .box:hover .info{
     transform: scale(1);
 }
