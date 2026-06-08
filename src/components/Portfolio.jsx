@@ -5,35 +5,35 @@ const SHS_PROJECTS = [
   {
     title: 'Election Website',
     desc: 'A website built for the 2022 Elections, presenting candidate information and election details.',
-    img: '/images/election-img.png',
+    img: `${import.meta.env.BASE_URL}images/election-img.png`,
     category: 'website',
     tools: 'HTML, CSS',
   },
   {
     title: 'School Website',
     desc: 'A promotional website for CIIT Senior High School, highlighting programs and campus information.',
-    img: '/images/school-img.png',
+    img: `${import.meta.env.BASE_URL}images/school-img.png`,
     category: 'website',
     tools: 'HTML, CSS',
   },
   {
     title: 'Motorcycle Promo Website',
     desc: 'A promotional landing page for a motorcycle brand, focusing on product showcase and visual appeal.',
-    img: '/images/Motor-img.png',
+    img: `${import.meta.env.BASE_URL}images/Motor-img.png`,
     category: 'website',
     tools: 'HTML, CSS',
   },
   {
     title: 'Student System',
     desc: 'A student management system with a graphical user interface built using Java Swing.',
-    img: '/images/java-UI-img.png',
+    img: `${import.meta.env.BASE_URL}images/java-UI-img.png`,
     category: 'code',
     tools: 'Java, Java Swing',
   },
   {
     title: 'Cashier System',
     desc: 'A point-of-sale cashier system handling transactions and product management.',
-    img: '/images/cashier-admin-img.png',
+    img: `${import.meta.env.BASE_URL}images/cashier-admin-img.png`,
     category: 'code',
     tools: 'C++',
   },
@@ -77,7 +77,7 @@ function Portfolio() {
           <div className="portfolio__featured-grid">
             <div className="portfolio__featured-image">
               <img
-                src="/images/capstone-project.png"
+                src={`${import.meta.env.BASE_URL}images/capstone-project.png`}
                 alt="Student Records Management System dashboard"
                 loading="lazy"
                 decoding="async"

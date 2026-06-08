@@ -38,7 +38,7 @@ function Hero() {
         <div className="hero__image">
           <div className="hero__image-frame">
             <img
-              src="/images/profile-img-2.jpg"
+              src={`${import.meta.env.BASE_URL}images/profile-img-2.jpg`}
               alt="Mark Nielsen E. Ferreras"
               width="320"
               height="320"
