@@ -1,0 +1,145 @@
+/* ========================================
+   About
+   ======================================== */
+.about__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-10);
+  margin-bottom: var(--space-10);
+}
+
+/* Summary column */
+.about__summary p {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--space-6);
+}
+
+.about__objective {
+  padding: var(--space-5) var(--space-6);
+  border-left: 3px solid var(--accent);
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.7;
+  background: var(--accent-glow);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+/* Cards */
+.about__card {
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  margin-bottom: var(--space-6);
+  border: 1px solid var(--border-subtle);
+  transition: border-color var(--transition-base);
+}
+
+.about__card:last-child {
+  margin-bottom: 0;
+}
+
+.about__card:hover {
+  border-color: var(--border-accent);
+}
+
+.about__card-title {
+  font-size: var(--font-h3);
+  color: var(--text-primary);
+  margin-bottom: var(--space-6);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.about__card-title i {
+  color: var(--accent);
+  font-size: 1.1em;
+}
+
+/* Timeline */
+.about__timeline {
+  position: relative;
+  padding-left: var(--space-6);
+  border-left: 2px solid var(--border-accent);
+}
+
+.about__timeline-item {
+  position: relative;
+  padding-bottom: var(--space-6);
+}
+
+.about__timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.about__timeline-item::before {
+  content: '';
+  position: absolute;
+  left: calc(-1 * var(--space-6) - 5px);
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg-surface);
+}
+
+.about__timeline-item h4 {
+  font-size: var(--font-body);
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-bottom: var(--space-1);
+}
+
+.about__timeline-meta {
+  font-size: var(--font-small);
+  color: var(--accent);
+  display: block;
+  margin-bottom: var(--space-2);
+}
+
+.about__timeline-item p {
+  font-size: var(--font-small);
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+/* Download CV */
+.about__cv {
+  text-align: center;
+  padding: var(--space-8);
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+}
+
+.about__cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-8);
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md);
+  font-size: var(--font-body);
+  font-weight: 500;
+  transition: background var(--transition-base),
+              color var(--transition-base),
+              box-shadow var(--transition-base);
+}
+
+.about__cv-btn:hover {
+  background: var(--accent);
+  color: var(--text-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+/* ========================================
+   Mobile
+   ======================================== */
+@media (max-width: 768px) {
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+}
