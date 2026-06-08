@@ -10,8 +10,20 @@ const CONTACTS = [
   {
     icon: 'fas fa-envelope',
     label: 'Email',
-    value: 'mark.ferreras@ciit.edu.ph',
-    href: 'mailto:mark.ferreras@ciit.edu.ph',
+    value: 'marknielsenferreras@gmail.com',
+    href: 'mailto:marknielsenferreras@gmail.com',
+  },
+  {
+    icon: 'fab fa-linkedin',
+    label: 'LinkedIn',
+    value: 'mark-ferreras-5567551a0',
+    href: 'https://www.linkedin.com/in/mark-ferreras-5567551a0/',
+  },
+  {
+    icon: 'fab fa-github',
+    label: 'GitHub',
+    value: 'Estropia',
+    href: 'https://github.com/Estropia',
   },
   {
     icon: 'fas fa-map-marker-alt',

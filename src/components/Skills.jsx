@@ -1,11 +1,26 @@
 import './Skills.css';
 
 const TECHNICAL_SKILLS = [
-  { category: 'Languages', items: ['C++', 'Java', 'JavaScript', 'SQL'] },
-  { category: 'Web Technologies', items: ['HTML5', 'CSS3', 'Bootstrap 5', 'React'] },
-  { category: 'Back-End', items: ['Java Spring Boot', 'Hibernate'] },
-  { category: 'Databases', items: ['MySQL 8'] },
-  { category: 'DevOps & Tools', items: ['Git', 'Docker', 'VS Code', 'NetBeans'] },
+  {
+    category: 'Frontend Technologies',
+    items: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap 5', 'Mobile-first Design', 'Responsive Design Testing'],
+  },
+  {
+    category: 'Quality Assurance',
+    items: ['Manual Testing', 'Functional Testing', 'UI Testing', 'Component Testing', 'Bug Tracking'],
+  },
+  {
+    category: 'Backend & Database',
+    items: ['Java', 'Spring Boot', 'MySQL 8'],
+  },
+  {
+    category: 'Development Tools',
+    items: ['Git', 'GitHub', 'VSCode', 'Antigravity IDE'],
+  },
+  {
+    category: 'Methodologies',
+    items: ['Agile', 'Scrum Fundamentals'],
+  },
 ];
 
 const SOFT_SKILLS = [
