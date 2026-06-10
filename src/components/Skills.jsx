@@ -6,16 +6,20 @@ const TECHNICAL_SKILLS = [
     items: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap 5', 'Mobile-first Design', 'Responsive Design Testing'],
   },
   {
-    category: 'Quality Assurance',
-    items: ['Manual Testing', 'Functional Testing', 'UI Testing', 'Component Testing', 'Bug Tracking'],
+    category: 'Testing & Quality Assurance',
+    items: ['JUnit Automation', 'Functional Testing', 'Manual UI Validation', 'Component Testing'],
   },
   {
     category: 'Backend & Database',
-    items: ['Java', 'Spring Boot', 'MySQL 8'],
+    items: ['Java', 'Spring Boot', 'MySQL 8', 'RESTful APIs'],
+  },
+  {
+    category: 'AI & Agentic Engineering',
+    items: ['Claude Code', 'Antigravity IDE', 'AI-Assisted Prototyping'],
   },
   {
     category: 'Development Tools',
-    items: ['Git', 'GitHub', 'VSCode', 'Antigravity IDE'],
+    items: ['Git', 'GitHub', 'VS Code'],
   },
   {
     category: 'Methodologies',

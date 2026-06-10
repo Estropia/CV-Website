@@ -13,14 +13,15 @@ function About() {
           {/* Left — Summary */}
           <div className="about__summary">
             <p>
-              Front-End Developer with 2+ years building responsive web applications 
-              using HTML5, CSS3, JavaScript, and Bootstrap. Currently leading a 
-              full-stack Student Records Management System project while completing 
-              my BS Information Technology degree.
+              Front-End Developer with 2+ years of experience building responsive web
+              applications using HTML5, CSS3, JavaScript, and Bootstrap. Currently
+              pursuing a BS in Information Technology while serving as Lead Developer
+              for a full-stack Student Records Management System, leveraging
+              AI-assisted coding to maximize development velocity.
             </p>
             <p>
-              I help teams deliver quality user interfaces through both development 
-              and QA testing experience.
+              Skilled in bridging the gap between clean UI development and rigorous
+              QA testing to deliver high-quality, user-centric software.
             </p>
             <blockquote className="about__objective">
               To continuously improve my skills and gain industry experience as a
@@ -40,14 +41,34 @@ function About() {
                 <div className="about__timeline-item">
                   <h4>Lead Developer</h4>
                   <span className="about__timeline-meta">
-                    Student Records Management System (SRMS) Project — Jan 2026 – Present
+                    Student Records Management System (SRMS) Project · Pasig City, Ortigas — Jan 2026 – Present
                   </span>
-                  <p>
-                    Developing a full-stack web application with CSS and Bootstrap front-end, 
-                    integrating Java Spring Boot APIs and MySQL 8 database. Wrote functional 
-                    testing cases to validate input fields and form submissions, tracking bug rate improvements. 
-                    Collaborated directly with client stakeholders to deliver functional specifications on schedule.
-                  </p>
+                  <ul className="about__timeline-bullets">
+                    <li>
+                      Accelerated full-stack development lifecycles by leveraging agentic
+                      workflows via Claude Code and Antigravity IDE to architect Java Spring
+                      Boot REST APIs, a MySQL 8 database schema, and a Bootstrap front-end.
+                    </li>
+                    <li>
+                      Automated code verification and regression testing by prompting Claude
+                      Code to programmatically generate and execute comprehensive JUnit test
+                      suites.
+                    </li>
+                    <li>
+                      Engineered core modules handling data ingestion for 200+ active student
+                      profiles, managing critical workflows for enrollment, real-time grading,
+                      and attendance tracking.
+                    </li>
+                    <li>
+                      Collaborated directly with client stakeholders to gather requirements
+                      and deliver functional specifications on schedule.
+                    </li>
+                    <li>
+                      Conducted rigorous manual exploratory testing across the front-end to
+                      identify UI bugs and verify that visual components seamlessly align with
+                      client design requirements.
+                    </li>
+                  </ul>
                 </div>
                 <div className="about__timeline-item">
                   <h4>Front-End Developer (Commission)</h4>

@@ -105,6 +105,33 @@
   line-height: 1.7;
 }
 
+.about__timeline-bullets {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-2) 0 0 0;
+}
+
+.about__timeline-bullets li {
+  position: relative;
+  padding-left: var(--space-5);
+  font-size: var(--font-small);
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--space-2);
+}
+
+.about__timeline-bullets li:last-child {
+  margin-bottom: 0;
+}
+
+.about__timeline-bullets li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: 700;
+}
+
 /* Download CV */
 .about__cv {
   text-align: center;

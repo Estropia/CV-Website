@@ -15,7 +15,7 @@ function Hero() {
     <section id="home" className="hero">
       <div className="hero__inner container">
         <div className="hero__content">
-          <span className="hero__tag">// Front-End Developer &amp; Bug Tester</span>
+          <span className="hero__tag">// Front-End Developer | HTML5, CSS3, Bootstrap, JavaScript</span>
           <h1 className="hero__name">
             Mark{' '}
             <span className="accent">Ferreras</span>
